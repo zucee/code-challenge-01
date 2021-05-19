@@ -9,9 +9,9 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 ‘Die Summe der Zahlen ist: summe ‘
 */
 
-var firstNumber = prompt("Bitte geben Sie eine Zahl ein:");
-var secondNumber = prompt ("Bitte geben Sie eine zweite Zahl ein:");
+let firstNumber = prompt("Bitte geben Sie eine Zahl ein:");
+let secondNumber = prompt ("Bitte geben Sie eine zweite Zahl ein:");
 
-var sum = (firstNumber*1 + secondNumber*1);
+let sum = (firstNumber*1 + secondNumber*1);
 
 console.log("Die Summe der Zahlen ist: " + sum);
